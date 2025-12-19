@@ -210,7 +210,7 @@ document.addEventListener("DOMContentLoaded", () => {
       doc.setFont("helvetica", "bold");
       doc.text("Invoice Summary", 20, y); y += lineHeight;
       doc.setFont("helvetica", "normal");
-      doc.text(`Items Provided (${imageFiles.length}): $0`, 25, y); y += lineHeight;
+      doc.text(`Items Provided (${imageFiles.length}): £0`, 25, y); y += lineHeight;
       doc.text(`Payment Method: ${payment}`, 25, y); y += lineHeight;
       doc.text("Tax Fee: -", 25, y); y += lineHeight;
       doc.text("------------------------------------------------------", 25, y); y += lineHeight;
